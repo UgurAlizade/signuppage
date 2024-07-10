@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>User Information</h1>
+        <label for="input1">Username:</label>
+        <input type="text" name="input1" id="input1">
+        <label for="input2">Password</label>
+        <input onfocus="done()" onblur="stopChecking()" type="password" id="input2" name="input2">
+       <p id="wrongp" class="wrongp"><i class="fa-solid fa-circle-xmark" id="wrong"></i> Password is at least 8 characters long.</p>
+       <p id="wrongp2" class="wrong2p"><i class="fa-solid fa-circle-xmark" id="wrong2"></i> Password includes at least 1 number.</p>
+        <button id="button">Sign Up</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
