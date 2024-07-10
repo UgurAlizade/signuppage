@@ -36,7 +36,7 @@ function done() {
             input2check2 = false;
         }
 
-    }, 1000);
+    }, 100);
 }
 
 function stopChecking() {
